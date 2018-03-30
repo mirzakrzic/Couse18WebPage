@@ -8,6 +8,7 @@ body {
     padding: 0.4%;
     font-size: 18px;
     background-color: #333333 !important;
+    margin-bottom: 500px; 
 }
 
 .navbar a {
@@ -40,6 +41,7 @@ body {
     height: 6.5rem;
     padding: 2.3rem;
     font-size: 1.7rem;
+    margin-top: 10px;
 }
 
 #footer a {
