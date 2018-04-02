@@ -174,7 +174,6 @@ section {
     height:90% !important;
 }
 
-=======
 .contactContent {
     vertical-align: middle;
     background-color: hsla(0, 0%, 20%, 0.8);
@@ -338,6 +337,7 @@ section {
     }
     .uf_content{
         margin-top: -8.5%; 
+    }
 
     .contactContent .col-sm-4 {
         margin: 6%;
