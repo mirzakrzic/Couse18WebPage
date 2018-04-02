@@ -373,9 +373,41 @@ section {
     padding: 0;
 }
 
-
 .participants > span {
     font-size: 1.5em;
     color: white;
+}
+
+
+.funfact {
+    vertical-align: middle;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    border-radius: 30px; 
+    padding: 0 1% 1% 1%; 
+    text-align: center;
+    font-size: 129%; 
+    margin-top: 13%;
+}
+
+.contactHeading {
+    margin-bottom: 1%;
+}
+
+.funfact span i {
+    color: white;
+    font-size: 80px;
+    margin-top:50px;
+}
+
+#orangePhoto{
+    height:70px;
+    width:70px;
+    color: white;
+    margin-top:50px;
+}
+
+.contactPosition {
+    font-size: 130%;
+    color: #E3A214;
 }
 
