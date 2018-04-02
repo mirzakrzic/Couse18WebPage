@@ -253,3 +253,70 @@ section {
     font-family: normalLetters;
     src: url(../fonts/guildof.ttf);
  }
+
+ .OrganizersImg {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    padding-top: 1%; 
+}
+
+.CT {
+    margin-top: 100px;
+    padding: 1.8% 0; 
+    background-color: hsla(0, 0%, 20%, 0.8);
+    border-radius: 30px; 
+}
+
+.organizers {
+    text-align: center;
+    padding: 0;
+}
+
+
+.organizers > span {
+    font-size: 1.5em;
+    color: white;
+}
+
+.organizers > span > a {
+    color: #E3A214;
+    text-decoration: none;
+}
+
+.CT .row .col-sm-12 {
+    color: white;
+    text-align: center;
+}
+
+
+.PaxImg {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+   
+}
+
+.pax {
+    margin-top: 100px;
+    padding: 1.8% 0; 
+    background-color: hsla(0, 0%, 20%, 0.8);
+    border-radius: 30px; 
+}
+
+.pax .row .col-sm-12 {
+    color: white;
+    text-align: center;
+}
+
+.participants {
+    text-align: center;
+    padding: 0;
+}
+
+
+.participants > span {
+    font-size: 1.5em;
+    color: white;
+}
+
