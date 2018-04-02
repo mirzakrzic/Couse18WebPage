@@ -146,6 +146,49 @@ section {
     color: #E3A214;
     text-decoration: none;
 }
+
+.contactContent {
+    vertical-align: middle;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    border-radius: 30px; 
+    padding: 0 1% 1% 1%; 
+    text-align: center;
+    font-size: 129%; 
+    margin-top: 13%;
+}
+
+.contactHeading {
+    margin-bottom: 1%;
+}
+
+.contactContent span i {
+    color: #E3A214;
+}
+
+.contactContent span a {
+    color: white;
+} 
+
+.contactContent span a:hover {
+    color: #E3A214;
+    text-decoration: none;
+} 
+
+.contactContent a i {
+    color: #E3A214;
+    font-size: 220%;  
+    margin: 4%;
+    margin-bottom: 0;
+}
+
+.contactContent a i:hover {
+    color: white;
+}
+
+.contactPosition {
+    font-size: 130%;
+    color: #E3A214;
+}
  
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .navbar {
@@ -172,6 +215,10 @@ section {
 
     .ds {
         font-size: 1000%;
+    }
+
+    .contactContent { 
+        margin-top: 25%;
     }
 }
 
@@ -205,6 +252,10 @@ section {
     .btn-lg { 
         width: 30%;   
         font-size: 3rem;
+    }
+
+    .contactContent { 
+        margin-top: 35%;
     }
 }
 
@@ -241,6 +292,14 @@ section {
     .btn-lg { 
         width: 40%;   
         font-size: 2rem;
+    }
+
+    .contactContent .col-sm-4 {
+        margin: 6%;
+    }
+
+    .contactContent { 
+        margin-top: 40%;
     }
 }
 
