@@ -139,7 +139,7 @@ section {
 
 .itteam > span {
     font-size: 1.5em;
-    color: white;
+    color: white ;
 }
 
 .itteam > span > a {
@@ -147,6 +147,34 @@ section {
     text-decoration: none;
 }
 
+  .brightness {
+    display: inline-block;
+}
+.brightness img:hover {
+    opacity: 1 !important;
+}
+
+.uf_content{
+    background-color: hsla(0, 0%, 20%, 0.8);
+    padding: 1.8% 0; 
+    border-radius: 30px; 
+    margin-top: 8%;
+}
+
+.uf_content .col-sm-4 {
+    text-align: center;
+}
+
+.uf_content .col-sm-12 {
+    text-align: center;
+}
+
+.oranges{
+    width:90% !important;
+    height:90% !important;
+}
+
+=======
 .contactContent {
     vertical-align: middle;
     background-color: hsla(0, 0%, 20%, 0.8);
@@ -190,7 +218,7 @@ section {
     color: #E3A214;
 }
  
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .navbar {
         padding: 0.4%;
         font-size: 14px;
@@ -217,6 +245,10 @@ section {
         font-size: 1000%;
     }
 
+    .uf_content{
+        margin-top: 18%;
+    }
+    
     .contactContent { 
         margin-top: 25%;
     }
@@ -253,6 +285,12 @@ section {
         width: 30%;   
         font-size: 3rem;
     }
+    
+    .uf_content{
+        margin-top: 15%;
+    }
+
+
 
     .contactContent { 
         margin-top: 35%;
@@ -293,6 +331,13 @@ section {
         width: 40%;   
         font-size: 2rem;
     }
+
+    .oranges{
+        width:50% !important;
+        height:60% !important;
+    }
+    .uf_content{
+        margin-top: -8.5%; 
 
     .contactContent .col-sm-4 {
         margin: 6%;
