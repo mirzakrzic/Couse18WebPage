@@ -225,7 +225,7 @@ section {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .navbar {
         padding: 0.2%;
-        font-size: 10.5px;
+        font-size: 8.8px;
     }
 
     #footer { 
@@ -299,21 +299,21 @@ section {
     }
 
     .contactContent { 
-        margin-top: 40%;
+        margin-top: 1%;
     }
 }
 
 @font-face {
     font-family: cpitalLetters;
     src: url(../fonts/Gasalt-Regular.ttf);
- }
+}
 
- @font-face {
+@font-face {
     font-family: normalLetters;
     src: url(../fonts/guildof.ttf);
- }
+}
 
- .OrganizersImg {
+.OrganizersImg {
     width: 20em;
     height: 20em;
     border-radius: 50%;
