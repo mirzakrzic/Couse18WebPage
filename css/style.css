@@ -139,7 +139,7 @@ section {
 
 .itteam > span {
     font-size: 1.5em;
-    color: white;
+    color: white ;
 }
 
 .itteam > span > a {
@@ -286,7 +286,7 @@ section {
         height:60% !important;
     }
     .uf_content{
-        margin-top: -8.5%;
+        margin-top: -8.5%; 
     }
 }
 
