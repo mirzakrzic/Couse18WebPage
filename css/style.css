@@ -192,20 +192,24 @@ section {
     color: #E3A214;
 }
 
-.contactContent span a {
-    color: white;
+.contactContent span a, .organizers span a, .itTeam span a {
+    color: white !important;
 } 
 
-.contactContent span a:hover {
-    color: #E3A214;
-    text-decoration: none;
-} 
+.contactContent span a:hover, .organizers span a:hover, .itTeam span a:hover {
+    color: #E3A214 !important;
+    text-decoration: none !important;
+}
 
 .contactContent a i {
     color: #E3A214;
     font-size: 220%;  
     margin: 4%;
     margin-bottom: 0;
+}
+
+.fa {
+    color: #E3A214;
 }
 
 .contactContent a i:hover {
@@ -221,173 +225,6 @@ section {
     margin-top: 5%;
 }
  
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .navbar {
-        padding: 0.4%;
-        font-size: 14px;
-    }
-
-    #footer { 
-        font-size: 1.5rem;
-    }
-
-    #course_logo {
-        width: 20%;
-        height: 25%;
-    }
-
-    #home {
-        padding-top: 59px;
-    }
-
-    .containerHome { 
-        margin-left: 2%;
-    }
-
-    .ds {
-        font-size: 1000%;
-    }
-
-    .uf_content{
-        margin-top: 18%;
-    }
-    
-    .contactContent { 
-        margin-top: 25%;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-    .navbar {
-        padding: 0.2%;
-        font-size: 8.8px;
-    }
-
-    #footer { 
-        font-size: 1.3rem;
-    }
-
-    #course_logo {
-        width: 22%;
-        height: 25%;
-    }
-
-    #home {
-        padding-top: 54px;
-    }
-
-    .containerHome { 
-        margin-left: 1%;
-    }
-
-    .ds {
-        font-size: 800%;
-    }
-
-    .btn-lg { 
-        width: 30%;   
-        font-size: 3rem;
-    }
-    
-    .uf_content{
-        margin-top: 15%;
-    }
-
-
-
-    .contactContent { 
-        margin-top: 35%;
-    }
-
-    #about {
-        height: 160vh !important;
-    }
-
-    .aboutBEST {
-        width: 100% !important;
-    }
-}
-
-@media only screen and  (min-width: 320px) and (max-width: 480px) { 
-    #footer { 
-        font-size: 1.2rem;
-    }
-
-    #course_logo {
-        width: 35%;
-        height: 20%;
-    }
-
-    #home {
-        padding-top: 54px;
-    }
-
-    .containerHome { 
-        margin-left: 1%;
-    }
-
-    .homeContent {
-        padding-top: 20%;
-    }
-
-    .etwof {
-        font-size: 200%;
-    }
-
-    .ds {
-        font-size: 400%;
-    }
-
-    .btn-lg { 
-        width: 40%;   
-        font-size: 2rem;
-    }
-
-    .oranges{
-        width:50% !important;
-        height:60% !important;
-    }
-    .uf_content{
-        margin-top: -8.5%; 
-    }
-
-    .contactContent .col-sm-4 {
-        margin: 6%;
-    }
-
-    .contactContent { 
-        margin-top: 1%;
-    }
-
-    .funfact {
-        margin-top: -8.5% !important;
-        font-size: 80% !important; 
-        margin-top: 13%;
-    }
-
-    .funfact span i { 
-        font-size: 50px !important;
-    }
-
-    #about {
-        height: 170vh !important;
-    }
-
-    .aboutBEST {
-        width: 100% !important;
-    }
-}
-
-@font-face {
-    font-family: cpitalLetters;
-    src: url(../fonts/Gasalt-Regular.ttf);
-}
-
-@font-face {
-    font-family: normalLetters;
-    src: url(../fonts/guildof.ttf);
-}
-
 .OrganizersImg {
     width: 20em;
     height: 20em;
@@ -485,80 +322,260 @@ section {
     color: #E3A214;
 }
 
-.aboutBEST{
-    margin-top: 100px;
-    padding: 3% 0;
+.aboutBEST {
+    margin:15px;
+    margin-top: 5%;
     background-color: hsla(0, 0%, 20%, 0.8);
     border-radius: 30px;  
-    margin: 15px;
     width:30%;
-    height:500px;
+    height: 700px;
+    padding: 0;
+    text-align: center;
+    font-size: 140%; 
 }
-.top{
+
+.top {
     width:100%;
-    background-color: black;
-    padding:20px;
+    height: 25%;
+    background-color: hsla(0, 0%, 10%, 0.5);
+    padding: 15px;
+    border-radius: 30px;
 }
 
 .aboutContent{
-    padding:5px;
+    padding:8px;
     margin-top: 5px;
 }
-#photo1{
-    width:120px;
-    height:120px;
-    margin-left:100px;
-}
-#photo2{
-    height:120px;
-    width:170px; 
-    margin-left:70px;
-    padding:20px;
-}
-#photo3{
-    width:160px;
-    height:120px;
-    margin-left:80px;
-
-}
-.info {
-    margin-top: -8.5% !important;
-    font-size: 80% !important; 
-    margin-top: 13%;
-}
-.aboutBEST{
-    vertical-align: middle;
-    background-color: hsla(0, 0%, 20%, 0.8);
-    border-radius: 30px; 
-    padding: 0 1% 1% 1%; 
-    text-align: center;
-    font-size: 129%; 
-    margin-top: 13%;
-    width:30%;
-    height:500px;
-    margin:15px;
-}
-
-/* fali background-color:black za class="top"*/
 
 #photo1{
-    width: 120px;
-    height:140px;
-    margin-left:20px;
+    width:140px;
+    height:130px;
 }
 
 #photo2{
-    width:160px;
     height:100px;
-    margin-left:20px;
-    margin-top:20px;
-    margin-bottom:20px;
-
+    width:180px; 
+    margin-top: 10px;
 }
 
 #photo3{
-    width:190px;
-    height:150px;
-    margin-left:20px;
+    height:125px;
+    width:178px; 
+    margin-top: -3px;
+}
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        padding: 0.4%;
+        font-size: 14px;
+    }
+
+    #footer { 
+        font-size: 1.5rem;
+    }
+
+    #course_logo {
+        width: 20%;
+        height: 25%;
+    }
+
+    #home {
+        padding-top: 59px;
+    }
+
+    .containerHome { 
+        margin-left: 2%;
+    }
+
+    .ds {
+        font-size: 1000%;
+    }
+
+    .uf_content{
+        margin-top: 18%;
+    }
+    
+    .contactContent { 
+        margin-top: 25%;
+    }
+
+    .aboutBEST {
+        height:800px; 
+    }
+
+    .top {
+        height: 20%;
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        padding: 0.2%;
+        font-size: 8.8px;
+    }
+
+    #footer { 
+        font-size: 1.3rem;
+    }
+
+    #course_logo {
+        width: 22%;
+        height: 25%;
+    }
+
+    #home {
+        padding-top: 54px;
+    }
+
+    .containerHome { 
+        margin-left: 1%;
+    }
+
+    .ds {
+        font-size: 800%;
+    }
+
+    .btn-lg { 
+        width: 30%;   
+        font-size: 3rem;
+    }
+    
+    .uf_content{
+        margin-top: 15%;
+    }
+
+    .contactContent { 
+        margin-top: 35%;
+    }
+
+    #about {
+        height: 200vh !important;
+    }
+
+    .funfact {
+        margin-top: 300px;
+    }
+
+    .uf_content {
+        margin-top: 300px;
+    }
+
+    .aboutBEST { 
+        width: 100% !important;
+        margin-top: 5% !important;
+    }
+
+    .top {
+        height: 30%;
+        padding: 15px;
+    }
+}
+
+@media only screen and  (min-width: 320px) and (max-width: 480px) { 
+    #footer { 
+        font-size: 1.2rem;
+    }
+
+    #course_logo {
+        width: 35%;
+        height: 20%;
+    }
+
+    #home {
+        padding-top: 54px;
+    }
+
+    .containerHome { 
+        margin-left: 1%;
+    }
+
+    .homeContent {
+        padding-top: 20%;
+    }
+
+    .etwof {
+        font-size: 200%;
+    }
+
+    .ds {
+        font-size: 400%;
+    }
+
+    .btn-lg { 
+        width: 40%;   
+        font-size: 2rem;
+    }
+
+    .oranges{
+        width:50% !important;
+        height:60% !important;
+    }
+    .uf_content{
+        margin-top: -8.5%; 
+    }
+
+    .contactContent .col-sm-4 {
+        margin: 6%;
+    }
+
+    .contactContent { 
+        margin-top: 1%;
+    }
+
+    .funfact {
+        margin-top: -8.5% !important;
+        font-size: 80% !important; 
+        margin-top: 13%;
+    }
+
+    .funfact span i { 
+        font-size: 50px !important;
+    }
+
+    #about {
+        height: 400vh !important;
+    }
+
+    #funFacts {
+        height: 150vh !important;
+    }
+
+    #usefulInfo {
+        height: 150vh !important;
+    }
+
+    #contact {
+        height: 150vh !important;        
+    }
+
+    .funfact {
+        margin-top: 30px !important;
+    }
+
+    .uf_content {
+        margin-top: 25px;
+    }
+
+    .aboutBEST { 
+        width: 100% !important;
+        margin-top: 5% !important;
+        height: 650px;
+        font-size: 130%;
+    }
+
+    .top {
+        height: 25%;
+        padding: 15px;
+    }
+}
+
+@font-face {
+    font-family: cpitalLetters;
+    src: url(../fonts/Gasalt-Regular.ttf);
+}
+
+@font-face {
+    font-family: normalLetters;
+    src: url(../fonts/guildof.ttf);
 }
