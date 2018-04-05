@@ -453,7 +453,6 @@ section {
     color: white;
 }
 
-
 .funfact {
     vertical-align: middle;
     background-color: hsla(0, 0%, 20%, 0.8);
@@ -484,6 +483,43 @@ section {
 .contactPosition {
     font-size: 130%;
     color: #E3A214;
+}
+
+.aboutBEST{
+    margin-top: 100px;
+    padding: 3% 0;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    border-radius: 30px;  
+    margin: 15px;
+    width:30%;
+    height:500px;
+}
+.top{
+    width:100%;
+    background-color: black;
+    padding:20px;
+}
+
+.aboutContent{
+    padding:5px;
+    margin-top: 5px;
+}
+#photo1{
+    width:120px;
+    height:120px;
+    margin-left:100px;
+}
+#photo2{
+    height:120px;
+    width:170px; 
+    margin-left:70px;
+    padding:20px;
+}
+#photo3{
+    width:160px;
+    height:120px;
+    margin-left:80px;
+
 }
 .info {
     margin-top: -8.5% !important;
