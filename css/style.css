@@ -310,11 +310,19 @@ section {
     margin-top:50px;
 }
 
-#orangePhoto{
+.funfact span i:hover {
+    color: #E3A214;
+}
+
+#orangePhoto {
     height:70px;
     width:70px;
-    color: white;
+    color: black;
     margin-top:50px;
+}
+
+#orangePhoto:hover {
+    background: linear-gradient(#E3A214, #E3A214); 
 }
 
 .contactPosition {
@@ -375,11 +383,11 @@ img {
     background-color: hsla(0, 0%, 20%, 0.8);
     padding: 1.8% 0; 
     border-radius: 30px; 
-    margin-top: 8%;
+    margin-top: 3%;
 }
 .partners .col-sm-4 {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .partners .col-sm-12 {
@@ -387,19 +395,29 @@ img {
 }
 .partners .col-sm-6 {
     text-align: center;
+    margin-top: 15px;
 }
 
 .partnersImg{
     width: 300px;
 }
 
-#intera{
-    margin-top: 30px;
+#mistralLogo, #fitLogo {
+    width: 250px;
 }
 
-#vokabula{
-    margin-top: 10px;
+#goldPartner {
+    color: gold;
 }
+
+#bronzePartner {
+    color: #CD7F32;
+}
+
+#mediaPartner {
+    color: #ce3623;
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .navbar {
         padding: 0.4%;
