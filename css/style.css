@@ -372,8 +372,11 @@ section {
     margin-top: -3px;
 }
 /* Partners section */
-
-
+#partners{
+padding-top: 90px;
+    height: 150vh;
+    color: white;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -392,6 +395,7 @@ img {
 
 .partners .col-sm-12 {
     text-align: center;
+    margin-top: 15px;
 }
 .partners .col-sm-6 {
     text-align: center;
@@ -399,17 +403,38 @@ img {
 }
 
 .partnersImg{
-    width: 300px;
-}
-
-#mistralLogo, #fitLogo {
     width: 250px;
 }
-
-#goldPartner {
-    color: gold;
+#atlant{
+    margin-top: 16px;
+}
+h3{
+    margin-top: 5px;
+}
+#spark{
+    width: 200px;
+}
+.partners .mediaImg{
+width: 200px;
 }
 
+#face{
+    margin-top: 60px;
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+}
+#federalna{
+    margin-top: 90px;
+}
+#city{
+    margin-top: 80px;
+}
+#goldPartner {
+    color: goldenrod;
+}
+#silverPartner {
+    color: silver;
+}
 #bronzePartner {
     color: #CD7F32;
 }
@@ -460,6 +485,9 @@ img {
     .top {
         height: 20%;
         padding: 15px;
+    }
+    #partners{
+        height: 150vh;
     }
 }
 
@@ -524,6 +552,7 @@ img {
         height: 30%;
         padding: 15px;
     }
+   
 }
 
 @media only screen and  (min-width: 320px) and (max-width: 480px) { 
