@@ -414,10 +414,15 @@ h3{
 #spark{
     width: 200px;
 }
+#dynamica{
+    width: 300px;
+}
+#tzhnk{
+    margin-top:37px;
+}
 .partners .mediaImg{
 width: 200px;
 }
-
 #face{
     margin-top: 60px;
     margin-right: 5px;
@@ -532,9 +537,20 @@ width: 200px;
     }
 
     #about {
-        height: 200vh !important;
+        height: 350vh !important;
     }
-
+    #funFacts{
+    height: 170vh;
+}
+    #usefulInfo{
+        height: 300vh;
+    }
+    #partners{
+        height: 350vh;
+    }
+    #fitLogo{
+        margin-top:10px;
+    }
     .funfact {
         margin-top: 300px;
     }
@@ -633,9 +649,9 @@ width: 200px;
     }
 
     #partners {
-        height: 300vh !important; 
+        height: 350vh !important; 
     }
-
+    
     .funfact {
         margin-top: 30px !important;
     }
